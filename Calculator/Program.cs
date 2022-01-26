@@ -10,13 +10,13 @@ switch (ans)
     case 1:
         Console.WriteLine($"Ответ:{a + b}");
         break;
-    //case 2:
-    //    Console.WriteLine($"Ответ:{a - b}");
-    //    break;
-    //case 3:
-    //    Console.WriteLine($"Ответ:{a * b}");
-    //    break;
-    //case 4:
-    //    Console.WriteLine($"Ответ:{a / b}");
-    //    break;
+    case 2:
+        Console.WriteLine($"Ответ:{a - b}");
+        break;
+    case 3:
+        Console.WriteLine($"Ответ:{a * b}");
+        break;
+    case 4:
+        Console.WriteLine($"Ответ:{a / b}");
+        break;
 }
