@@ -7,6 +7,7 @@ Console.WriteLine("Напишите значение:\n1 - сложение\n2 -
 int ans = int.Parse(Console.ReadLine());
 switch (ans)
 {
+<<<<<<< HEAD
     //case 1:
     //    Console.WriteLine($"Ответ:{a + b}");
     //    break;
@@ -16,6 +17,17 @@ switch (ans)
     //case 3:
     //    Console.WriteLine($"Ответ:{a * b}");
     //    break;
+=======
+    case 1:
+        Console.WriteLine($"Ответ:{a + b}");
+        break;
+    case 2:
+        Console.WriteLine($"Ответ:{a - b}");
+        break;
+    case 3:
+        Console.WriteLine($"Ответ:{a * b}");
+        break;
+>>>>>>> master
     case 4:
         Console.WriteLine($"Ответ:{a / b}");
         break;
